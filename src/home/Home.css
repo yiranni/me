@@ -1,0 +1,16 @@
+.home {
+    padding-top: 6rem;
+    animation: fadein 1.5s ease forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
